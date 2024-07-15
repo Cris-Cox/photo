@@ -11,6 +11,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  overflow-x: hidden;
 }
 
 body {
@@ -26,10 +27,15 @@ body {
   letter-spacing: 0.5px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  min-height: 200vh; /* Increased height for more scrolling */
+  justify-content: flex-end; /* Aligns the content to the bottom */
+  min-height: 100vh;
   overflow-y: auto;
+}
+
+.content {
+  margin-top: auto; /* Pushes content to the bottom */
   padding: 20px;
+  text-align: center;
 }
 
 h1 {
@@ -37,13 +43,11 @@ h1 {
   font-size: 20px; /* Reduced font size */
   font-weight: 700;
   margin-bottom: 10px;
-  text-align: center;
 }
 
 p.message {
   color: white;
   font-size: 12px; /* Reduced font size */
-  text-align: center;
   margin-bottom: 20px;
   max-width: 600px;
   margin: 0 auto 40px auto; /* Push down further */
