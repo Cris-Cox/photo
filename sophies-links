@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sophie's Links</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  background-color: #f4f4f9;
+  color: #333;
+  background-image: url('Resized_2L2A7539_1720983571812.jpeg'); /* Corrected URL */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Aligns the content to the bottom */
+  min-height: 100vh;
+}
+
+h1 {
+  color: white; /* Changed to white */
+  font-size: 30px; /* Slightly smaller */
+  font-weight: 700;
+  margin-top: 100px; /* Increased margin-top to shift down */
+  margin-bottom: 10px;
+  text-align: center; /* Center align the heading */
+}
+
+p.message {
+  color: white; /* Changed to white */
+  font-size: 14px; /* Smaller font size */
+  text-align: center;
+  margin-top: 20px; /* Increased margin-top to shift down */
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent background to improve readability */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+a:hover {
+  background-color: #45a049;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.link-container {
+  max-width: 600px;
+  margin: 20px auto 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align the links */
+}
+
+@media (max-width: 600px) {
+  .link-container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px; /* Adjusted for smaller screens */
+  }
+}
+  </style>
+</head>
+<body>
+  <h1>Sophie's Links</h1>
+  <p class="message">Sophie, our beloved 11-and-a-half-year-old boxer, has been diagnosed with T-Cell Lymphoma and a Chemodectoma (a heart-based tumor). Every Monday, we make the two-and-a-half-hour journey from Tennessee to Greenville, South Carolina, for her chemo treatments, and have been since January of this year. Your support means the world to us, whether it's a donation or simply your concern and curiosity. Thank you for taking the time to scan the QR code.</p>
+  <div class="link-container">
+    <a href="https://www.venmo.com/u/Sophielee2013">Venmo Donation</a>
+    <a href="https://cash.app/$Sophielee2013">Cashapp Donation</a>
+    <a href="https://gofund.me/5c6fb76a">GoFundMe</a>
+    <a href="https://www.facebook.com/story.php?story_fbid=10234831495832081&id=1341859756&mibextid=oFDknk&rdid=ZHx3BszS1TNP2Npa">Stopping to smell the flowers</a>
+  </div>
+</body>
+</html>
