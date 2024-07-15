@@ -13,7 +13,7 @@ body {
   padding: 20px;
   background-color: #f4f4f9;
   color: #333;
-  background-image: url('Resized_2L2A7539_1720983571812.jpeg'); /* Corrected URL */
+  background-image: url('https://github.com/Cris-Cox/photo/blob/main/Resized_2L2A7539_1720983571812.jpeg'); /* Corrected URL */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
